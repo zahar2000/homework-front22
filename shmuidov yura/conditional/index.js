@@ -25,26 +25,26 @@
 // }
 
 // 2. Пользователь вводит ТРИ числа, вывести в консоль наибольшее из них
-let numberOne = prompt("enter number one");
-let numberTwo = prompt("enter number two");
-let numberThree = prompt("enter number three");
+// let numberOne = prompt("enter number one");
+// let numberTwo = prompt("enter number two");
+// let numberThree = prompt("enter number three");
 
-if (numberOne === null || numberTwo === null || numberThree === null) {
-  alert("you cancelled!");
-} else {
-  numberOne = Number(numberOne);
-  numberTwo = Number(numberTwo);
-  numberThree = Number(numberThree);
+// if (numberOne === null || numberTwo === null || numberThree === null) {
+//   alert("you cancelled!");
+// } else {
+//   numberOne = Number(numberOne);
+//   numberTwo = Number(numberTwo);
+//   numberThree = Number(numberThree);
 
-  if (isNaN(numberOne) || isNaN(numberTwo) || isNaN(numberThree)) {
-    alert("enter numbers!");
-  } else if (numberOne > numberTwo && numberOne > numberThree) {
-    console.log(numberOne);
-  } else if (numberTwo > numberOne && numberTwo > numberThree) {
-    console.log(numberTwo);
-  } else if (numberThree > numberOne && numberThree > numberTwo) {
-    console.log(numberThree);
-  } else {
-    console.log("numbers are equal");
-  }
-}
+//   if (isNaN(numberOne) || isNaN(numberTwo) || isNaN(numberThree)) {
+//     alert("enter numbers!");
+//   } else if (numberOne > numberTwo && numberOne > numberThree) {
+//     console.log(numberOne);
+//   } else if (numberTwo > numberOne && numberTwo > numberThree) {
+//     console.log(numberTwo);
+//   } else if (numberThree > numberOne && numberThree > numberTwo) {
+//     console.log(numberThree);
+//   } else {
+//     console.log("numbers are equal");
+//   }
+// }

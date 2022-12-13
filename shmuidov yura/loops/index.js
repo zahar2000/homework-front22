@@ -1,20 +1,19 @@
 // 1. Написать программу, которая вычисляет сумму чисел от 1 до n. Значение n вводится с клавиатуры.
 // Проверить число n на корректность (чтобы это было число, чтобы оно не было меньше 1, чтобы это было не null).
 
-let numberN = prompt("enter number n");
-
-if (!isNaN(numberN) && numberN > 0 && numberN !== null) {
-  numberN = Number(numberN);
-  for (let i = 1; i <= numberN; i++) {
-    let sumNumberN = 0;
-    sumNumberN = sumNumberN + i;
-  }
-  console.log(
-    `The sum of the numbers up to ${numberN} is equal to  ${sumNumberN}`
-  );
-} else {
-  alert(`enter a positive number n`);
-}
+// let numberN = prompt("enter number n");
+// let sumNumberN = 0;
+// if (!isNaN(numberN) && numberN > 0 && numberN !== null) {
+//   numberN = Number(numberN);
+//   for (let i = 1; i <= numberN; i++) {
+//     sumNumberN = sumNumberN + i;
+//   }
+//   console.log(
+//     `The sum of the numbers up to ${numberN} is equal to  ${sumNumberN}`
+//   );
+// } else {
+//   alert(`enter a positive number n`);
+// }
 
 // 2. Написать программу, которая определяет количество
 // положительных, отрицательных чисел и нулей. В
@@ -25,6 +24,27 @@ if (!isNaN(numberN) && numberN > 0 && numberN !== null) {
 // «Положительных: 2 шт.
 // Отрицательных: 5 шт.
 // Нулей: 3 шт.»
+
+let numberNumbers = prompt("enter number of numbers");
+let numberPositiveNumbers = 0;
+let numberNegativeNumbers = 0;
+let ZeroNumbers = 0;
+for (let i = 1; i <= numberNumbers; i++) {
+  let number = prompt("enter number");
+  if (number > 0) {
+    numberPositiveNumbers = Number(numberPositiveNumbers);
+    numberPositiveNumbers++;
+  } else if (number < 0) {
+    numberNegativeNumbers = Number(numberNegativeNumbers);
+    numberNegativeNumbers++;
+  } else {
+    ZeroNumbers = Number(ZeroNumbers);
+    ZeroNumbers++;
+  }
+}
+console.log(`положительных ${numberPositiveNumbers} шт.`);
+console.log(`Отрицательных ${numberNegativeNumbers} шт.`);
+console.log(`Нулей ${ZeroNumbers} шт.`);
 
 // 3. Написать программу, которая выводит на экран
 // двузначные числа, которые делятся на 4, но не

@@ -3,24 +3,25 @@
 // Проверить число n на корректность (чтобы это было число, чтобы
 // оно не было меньше 1, чтобы это было не null).
 
-let n = prompt("Enter number of digits from 1 or more...");
+// let n = prompt("Enter number of digits from 1 or more...");
 
-if (n === null) {
-  alert("you cancelled!");
-} else {
-  n = Number(n);
+// if (n === null) {
+//   alert("you cancelled!");
+// } else {
+//   n = Number(n);
 
-  if (isNaN(n) || n < 1) {
-    alert("Please enter a NUMBER over than 1!");
-  } else {
-    sum = 0;
+//   if (isNaN(n) || n < 1) {
+//     alert("Please enter a NUMBER over than 1!");
+//   } else {
+//     let sum = 0;
 
-    for (let i = 1; i <= n; i++) {
-      sum += i;
-    }
-    console.log("The sum of the numbers is " + sum);
-  }
-}
+//     for (let i = 1; i <= n; i++) {
+//       sum += i;
+//     }
+//     console.log("The sum of the numbers is " + sum);
+//   }
+// }
+// Добавлены let.
 
 // 2. Написать программу, которая определяет количество
 // положительных, отрицательных чисел и нулей. В
@@ -42,22 +43,24 @@ if (n === null) {
 //   if (isNaN(n) || n < 1) {
 //     alert("Please enter a NUMBER over than 1!");
 //   } else {
-//     positiveSum = 0;
-//     negativeSum = 0;
-//     zeroSum = 0;
+//     let positiveSum = 0;
+//     let negativeSum = 0;
+//     let zeroSum = 0;
 
 //     for (let i = 1; i <= n; i++) {
-//       digit = prompt("Enter a digit...");
+//       let digit = prompt("Enter a digit...");
+//       digit = Number(digit);
 //       if (digit > 0) {
 //         positiveSum++;
 //       }
 //       if (digit < 0) {
 //         negativeSum++;
 //       }
-//       if (digit == 0) {
+//       if (digit === 0) {
 //         zeroSum++;
 //       }
 //     }
+// Добавлен перевод строки в число и строгое равно.
 
 //     console.log("Quantity of positive digits is " + positiveSum);
 //     console.log("Quantity of negative digits is " + negativeSum);
@@ -91,12 +94,14 @@ if (n === null) {
 //   );
 //   if (isNaN(value)) {
 //     alert("Please enter a NUMBER!");
+//   } else {
+//     if (!value) break;
+//     quantity++;
+//     sum += value;
 //   }
-
-//   if (!value) break;
-//   quantity++;
-//   sum += value;
-//   average = sum / quantity;
 // }
 
+// average = sum / quantity;
 // console.log("The average of the entered numbers is " + average);
+
+// Реализована прямая проверка на null и вычисление среднего арифметического после цикла.

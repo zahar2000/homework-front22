@@ -34,32 +34,32 @@
 // 2. Пользователь вводит ТРИ числа
 // вывести в консоль наибольшее из них
 
-let numberOne = prompt("Please, enter the first number...");
-let numberTwo = prompt("Please, enter the second number...");
-let numberThree = prompt("Please, enter the third number...");
+// let numberOne = prompt("Please, enter the first number...");
+// let numberTwo = prompt("Please, enter the second number...");
+// let numberThree = prompt("Please, enter the third number...");
 
-if (numberOne === null || numberTwo === null || numberThree === null) {
-  alert("you cancelled!");
-} else {
-  numberOne = Number(numberOne);
-  numberTwo = Number(numberTwo);
-  numberThree = Number(numberThree);
+// if (numberOne === null || numberTwo === null || numberThree === null) {
+//   alert("you cancelled!");
+// } else {
+//   numberOne = Number(numberOne);
+//   numberTwo = Number(numberTwo);
+//   numberThree = Number(numberThree);
 
-  if (isNaN(numberOne) || isNaN(numberTwo) || isNaN(numberThree)) {
-    alert("enter numbers!");
-  } else {
-    switch (true) {
-      case numberOne > numberTwo && numberOne > numberThree:
-        console.log("The largest of entered number is - " + numberOne);
-        break;
-      case numberTwo > numberOne && numberTwo > numberThree:
-        console.log("The largest of entered number is - " + numberTwo);
-        break;
-      case numberThree > numberOne && numberThree > numberTwo:
-        console.log("The largest of entered number is - " + numberThree);
-        break;
-      default:
-        console.log("These numbers are equal.");
-    }
-  }
-}
+//   if (isNaN(numberOne) || isNaN(numberTwo) || isNaN(numberThree)) {
+//     alert("enter numbers!");
+//   } else {
+//     switch (true) {
+//       case numberOne > numberTwo && numberOne > numberThree:
+//         console.log("The largest of entered number is - " + numberOne);
+//         break;
+//       case numberTwo > numberOne && numberTwo > numberThree:
+//         console.log("The largest of entered number is - " + numberTwo);
+//         break;
+//       case numberThree > numberOne && numberThree > numberTwo:
+//         console.log("The largest of entered number is - " + numberThree);
+//         break;
+//       default:
+//         console.log("These numbers are equal.");
+//     }
+//   }
+// }

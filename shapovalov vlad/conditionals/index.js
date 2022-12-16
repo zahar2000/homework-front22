@@ -9,22 +9,22 @@
 // выводится такое сообщение: «Федот и Митрофан
 // одного возраста».
 
-// let FedotAge = prompt("Please, enter Fedot's age");
-// let MitrofanAge = prompt("Please, enter Mitrofan's age");
+// let fedotAge = prompt("Please, enter Fedot's age");
+// let mitrofanAge = prompt("Please, enter Mitrofan's age");
 
-// if (FedotAge === null || MitrofanAge === null) {
+// if (fedotAge === null || mitrofanAge === null) {
 //   alert("you cancelled!");
 // } else {
-//   FedotAge = Number(FedotAge);
-//   MitrofanAge = Number(MitrofanAge);
+//   fedotAge = Number(fedotAge);
+//   mitrofanAge = Number(mitrofanAge);
 
-//   if (isNaN(FedotAge) || isNaN(MitrofanAge)) {
+//   if (isNaN(fedotAge) || isNaN(mitrofanAge)) {
 //     alert("enter numbers!");
-//   } else if (FedotAge > MitrofanAge) {
-//     ageDifference = FedotAge - MitrofanAge;
+//   } else if (fedotAge > mitrofanAge) {
+//     ageDifference = fedotAge - mitrofanAge;
 //     console.log("Fedot is " + ageDifference + " years older than Mitrofan");
-//   } else if (MitrofanAge > FedotAge) {
-//     ageDifference = MitrofanAge - FedotAge;
+//   } else if (mitrofanAge > fedotAge) {
+//     ageDifference = mitrofanAge - fedotAge;
 //     console.log("Mitrofan is " + ageDifference + " years older than Fedot");
 //   } else {
 //     console.log("They are the same age");
@@ -34,32 +34,27 @@
 // 2. Пользователь вводит ТРИ числа
 // вывести в консоль наибольшее из них
 
-let numberOne = prompt("Please, enter the first number...");
-let numberTwo = prompt("Please, enter the second number...");
-let numberThree = prompt("Please, enter the third number...");
+// let numberOne = prompt("Please, enter the first number...");
+// let numberTwo = prompt("Please, enter the second number...");
+// let numberThree = prompt("Please, enter the third number...");
 
-if (numberOne === null || numberTwo === null || numberThree === null) {
-  alert("you cancelled!");
-} else {
-  numberOne = Number(numberOne);
-  numberTwo = Number(numberTwo);
-  numberThree = Number(numberThree);
-
-  if (isNaN(numberOne) || isNaN(numberTwo) || isNaN(numberThree)) {
-    alert("enter numbers!");
-  } else {
-    switch (true) {
-      case numberOne > numberTwo && numberOne > numberThree:
-        console.log("The largest of entered number is - " + numberOne);
-        break;
-      case numberTwo > numberOne && numberTwo > numberThree:
-        console.log("The largest of entered number is - " + numberTwo);
-        break;
-      case numberThree > numberOne && numberThree > numberTwo:
-        console.log("The largest of entered number is - " + numberThree);
-        break;
-      default:
-        console.log("These numbers are equal.");
-    }
-  }
-}
+// if (numberOne === null || numberTwo === null || numberThree === null) {
+//   alert("you cancelled!");
+// } else {
+//   numberOne = Number(numberOne);
+//   numberTwo = Number(numberTwo);
+//   numberThree = Number(numberThree);
+// }
+// if (isNaN(numberOne) || isNaN(numberTwo) || isNaN(numberThree)) {
+//   alert("enter numbers!");
+// } else {
+//   if (numberOne > numberTwo && numberOne > numberThree) {
+//     console.log("The largest of entered number is - " + numberOne);
+//   } else if (numberTwo > numberOne && numberTwo > numberThree) {
+//     console.log("The largest of entered number is - " + numberTwo);
+//   } else if (numberThree > numberOne && numberThree > numberTwo) {
+//     console.log("The largest of entered number is - " + numberThree);
+//   } else {
+//     console.log("These numbers are equal.");
+//   }
+// }

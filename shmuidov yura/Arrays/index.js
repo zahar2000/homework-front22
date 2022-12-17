@@ -117,14 +117,22 @@
 // массива: 8)
 
 // const resultArr = [];
-
-// for (let i = 0; i < 8 ; i++) {
-// ;
+// let number = 1;
+// for (let i = 0; i < 8; i++) {
+//   resultArr[i] = number;
+//   number += 2;
 // }
 // console.log(resultArr);
 
 // 7. Создать пустой массив.С помощью цикла создать массив, каждый элемент
 // которого равен квадрату своего номера.
+
+const resultArr = [];
+let number = 0;
+for (let i = 0; i < 11; i++) {
+  resultArr[i] = i * i;
+}
+console.log(resultArr);
 
 // 8. . Создать массив из 10 чисел. Вывести на экран
 // количество четных чисел из этого массива
@@ -141,11 +149,6 @@
 // 9. Создать массив из 10 чисел. Вывести на экран
 // наибольшее число из этого массива.
 
-const arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
-let maxNumber = 0;
-for (let i = 0; i < arr.length; i++) {
-  if () {
-  ;
-  }
-}
-console.log(maxNumber);
+// const arr = [1, 2, 3, 4, 5, 6, 57, 8, 9, 10];
+// let maxNumber = Math.max.apply(null, arr);
+// console.log(maxNumber);

@@ -41,7 +41,7 @@
 
 
 
-let cart = ['apple', 'potato', 'orange', 'pepper', 'cucumber'];
+// let cart = ['apple', 'potato', 'orange', 'pepper', 'cucumber'];
 
 // cart[0]
 // cart[1]
@@ -73,12 +73,35 @@ let cart = ['apple', 'potato', 'orange', 'pepper', 'cucumber'];
 // противоположными знаками. (Длина исходного
 // массива должна быть не меньше 10ти элементов).
 
-const arr = [2,5,-7,92,-19,52,-23,61,-74,45];
-const resultArr = [];
+// const arr = [2,5,-7,92,-19,52,-23,61,-74,45];
+// const resultArr = [];
 
-for (let i = 0; i < arr.length; i++) {
-    resultArr[i] = -arr[i];
-}
+// for (let i = 0; i < arr.length; i++) {
+//     resultArr[i] = -arr[i];
+// }
 
-console.log(arr);
-console.log(resultArr);
+// console.log(arr);
+// console.log(resultArr);
+
+
+// как создать массив с помощью цикла
+
+//  const arr = [];
+
+//  for (let i = 1; arr.length !== 8; i++) {
+//     arr[arr.length] = 1;
+//  }
+
+// console.log(arr);
+
+
+// 9. [78,7,6,23,23,45,63,1]Создать массив из 10 чисел. Вывести на экран
+// наибольшее число из этого массива.
+
+// const arr = [-78, -7, -6, -23, -123, -45, -63, -1];
+
+// let maxNumber = arr[0];
+
+// for (let i = 0; i < arr.length; i++) {
+
+// }

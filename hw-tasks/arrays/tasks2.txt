@@ -9,6 +9,7 @@
 
 4. Дан массив ["John", "Peter", "David", "Lambert", "Eddie", "Janett", "Franz"];
 "Перевернуть" массив, заменить первые 4 элемента на Митрофанов ("Mitrofan")
+.reverse()
 
 5. Даны два массива 
 ["John", "Peter", "David", "Lambert", "Eddie", "Janett", "Franz"]

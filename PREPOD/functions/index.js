@@ -115,32 +115,48 @@
 
 // 2. написать функцию которая принимает два числа и  возвращает массив этих чисел попорядку (длина 8)
 
-function generateArrayByTwoNumbers (num1, num2) {
-    const twoNumbersArray = [];
+// function generateArrayByTwoNumbers (num1, num2) {
+//     const twoNumbersArray = [];
 
-    for (let i = 0; twoNumbersArray.length !== 8; i++) {
-        twoNumbersArray[twoNumbersArray.length] = num1;
-        twoNumbersArray[twoNumbersArray.length] = num2;
-    }
+//     for (let i = 0; twoNumbersArray.length !== 8; i++) {
+//         twoNumbersArray[twoNumbersArray.length] = num1;
+//         twoNumbersArray[twoNumbersArray.length] = num2;
+//     }
 
-    return twoNumbersArray;
-}
+//     return twoNumbersArray;
+// }
 
-function getOppositeArray ( numbersArray ) {
-    const resultArr = [];
+// function getOppositeArray ( numbersArray ) {
+//     const resultArr = [];
 
-    for (let i = 0; i < numbersArray.length; i++) {
-        resultArr[i] = -numbersArray[i];
-    }
+//     for (let i = 0; i < numbersArray.length; i++) {
+//         resultArr[i] = -numbersArray[i];
+//     }
 
-    return resultArr;
-}
+//     return resultArr;
+// }
 
-// functional composition
-// f() g() h()  f(g(h())) Ramda Lodash
+// // functional composition
+// // f() g() h()  f(g(h())) Ramda Lodash
 
-console.log(
-    a(b(4, -1))
-);
+// console.log(
+//     a(b(4, -1))
+// );
 
+
+// 3. напишите функцию которая возвращает среднее арифметическое ЛЮБОМУ количеству переданных ей чисел (не должно быть массивом)
+
+
+// function getAverage (userAge, userName) {
+//     let sum = 0;
+
+//     // arguments = ['hello', false, [1,2,3]];
+//     for (let i = 0; i < arguments.length; i++) {
+//         sum += arguments[i];
+//     }
+
+//     return sum/arguments.length;   
+// }
+
+// console.log(getAverage('hello', false, [1,2,3]));
 

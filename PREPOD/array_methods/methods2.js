@@ -21,62 +21,52 @@
 
 // function myCallback (arr) {
 //     console.log(arr.slice(2,5));
-//     // if (item !== 'Peter' && item !== 'David') {
-//     //     console.log(item);
-//     // }
-// }
+// //     // if (item !== 'Peter' && item !== 'David') {
+// //     //     console.log(item);
+// //     // }
+// // }
 
+// const persons = ["John", "Peter", "David", "Janet"];
 
-// const persons = ['John', 'Peter', 'David', 'Janet'];
-
-// // persons.forEach(item => console.log(item));
-// persons.forEach(myCallback)
-
-// console.log(result);
-
+// persons.forEach((item, index, arrays) => console.log(arrays));
+// persons.forEach(myCallback);
 
 // .map()
-// const persons = ['John', 'Peter', 'David', 'Janet'];
+// const persons = ["John", "Peter", "David", "Janet"];
 
 // const mrPersons = persons.map((item, index, arr) => {
-//     return 'Mr. ' + item;
+//   return "Mr. " + item;
 // });
 
 // console.log(mrPersons);
 
 // .find()
-// const persons = ['John', 'Peter', 'David', 'Janet'];
+// const persons = ["John", "Peter", "David", "Janet"];
 
-// const item = persons.find((item, index, arr) => item === 'David');
+// const item = persons.find((item, index, arr) => item === "Peter");
 
 // console.log(item);
 
 // .some()
-// const persons = ['John', 'Peter', 'David', 'Janet'];
+// const persons = ["John", "Peter", "David", "Janet", "David"];
 
-// const isSomeLengthFour = persons.some(
-//     (item, index, arr) => item.length === 10
-// );
+// const isSomeLengthFour = persons.some((item, index, arr) => item.length === 5);
 
 // console.log(isSomeLengthFour);
 
-
 // .every()
-// const persons = ['John', 'Peter', 'David', 'Janet'];
+// const persons = ["John", "Peter", "David", "Janet"];
 
 // const isAllLengthOverThree = persons.every((item, index, arr) => {
-//     return item.length === 5;
+//   return item.length === 5;
 // });
 
 // console.log(isAllLengthOverThree);
 
-
 // .filter()
-// const persons = ['John', 'Peter', 'David', 'Janet'];
+// const persons = ["John", "Peter", "David", "Janet"];
 
-// const longPersonNames = persons.filter(
-//     (item, index, arr) => item.length === 4
-// );
+// const longPersonNames = persons.filter((item, index, arr) => item.length === 6);
 
 // console.log(longPersonNames);
 
@@ -88,21 +78,17 @@
 
 // console.log(index);
 
-
 // .reduce()
-// const persons = ['John', 'Peter', 'David', 'Janet'];
+// const persons = ["John", "Peter", "David", "Janet"];
 
-// const lettersAmount = persons.reduce(
-//     (sum, item) => sum + item.length, 
-//     0
-// );
+// const lettersAmount = persons.reduce((sum, item) => sum + item.length, 0);
 
 // console.log(lettersAmount);
 
 // const compose = [
 //     (a) => a + ' smth',
 //     (a) => 'Hello ' + a,
-//     (a) => a + ' !!!'  
+//     (a) => a + ' !!!'
 // ];
 
 // const result = compose.reduceRight((str, f) => f(str), 'John');
@@ -122,4 +108,3 @@
 // );
 
 // console.log(str);
-
